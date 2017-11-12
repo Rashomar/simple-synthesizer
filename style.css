@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #202020;
+}
+ul{
+	list-style-type: none;
+	width:700px;
+	margin:10px auto;
+	display: flex;
+	flex-wrap:wrap;
+	height: 710px;
+}
+li{
+	flex-grow: 1;
+	width:33%;
+}
+.blue{
+	background-color:  	#00008B;
+}
+.blue:active, .q {
+    background-color:#1E90FF;
+}
+.purple{
+	background-color: purple;
+}
+.purple:active, .s{
+    background-color: #FF00FF;
+}
+.green{
+	background-color: rgba(0,108,0,0.9);
+}
+.green:active, .d {
+    background-color: #00FF00;
+}
+.grey{
+	background-color: grey;
+}
+.grey:active, .f{
+    background-color:gainsboro ;
+}
+.brown{
+	background-color: brown;
+}
+.brown:active, .g {
+    background-color:  red;
+}
+.yellow{
+	background-color: #999900;
+}
+.yellow:active, .h {
+    background-color: 	#FFFF55;
+}
+.lightblue{
+	background-color: #20B2AA;
+}
+.lightblue:active, .j {
+    background-color: 	#00FA9A ;
+}
+.orange{
+	background-color:  	#FF8C00;
+}
+.orange:active, .k {
+    background-color: 	#FFD700;
+}
+.pink{
+	background-color:#FF1493;
+}
+.pink:active, .l {
+    background-color: pink;
+}
+
+
+.blue, .purple, .green, .grey, .brown, .yellow, .lightblue, .orange, .pink{
+  transition: all 150ms linear;
+}
+
+.blue:hover, .purple:hover, .green:hover,
+.grey:hover, .brown:hover, .yellow:hover,
+.lightblue:hover, .orange:hover, .pink:hover {
+  transition: all 250ms linear;
+  transform:scale(1.01);
+}
